@@ -447,6 +447,12 @@
     background: #FFF;
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.05);
 }
+.accordian_wrapper .accordion-item.active.close .accordian_inner{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow:none;
+    border-bottom: 1px solid  #E4E4E4;
+}
 .accordian_wrapper .accordion-button{
     padding:15px 70px 15px 40px;
     position: relative;
@@ -461,7 +467,7 @@
     font-size:1.058vw;
     font-style: normal;
     font-weight: 500;
-    padding: 15px 40px 15px;
+    padding: 15px 70px 15px 40px;
 }
 .accordian_wrapper .accordion-button:after{
     background:url("../images//angel_down.svg") no-repeat;
@@ -481,7 +487,7 @@
 .accordion-button:not(.collapsed)::after{
     background:url("../images//angel_up.svg") no-repeat; 
     /* transform: initial; */
-    /* top:3px; */
+   top:60%;
 }
 .accordion-item.active .accordion-button{
     font-size: 1.323vw;
@@ -939,6 +945,11 @@
     bottom:3vw;
     right: 4vw;
     opacity: 1;
+}
+
+
+.mob_image{
+    display: none;
 }
 
 /*.start-connection{*/
@@ -1407,7 +1418,19 @@
     .accordion-button:not(.collapsed)::after{
         top:55%;
     }
+
+
+    .mob_image{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .mob_image img{
+        width:100%;
+    }
     
+    .accordian_wrapper .accordion-body ul{
+        padding-left: 4.3vw;
+    }
 
 }
 
