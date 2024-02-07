@@ -707,12 +707,14 @@
     color:#fff;
     text-decoration: none;
 }
-
+.cs_footer .left_sec p{
+    margin-bottom: 0;
+}
 .footer_text{
     padding-top:10px;
 }
 .footer_text h5{
-    font-size: 46px;
+    font-size:3.042vw;
     font-weight: 700;
     font-style: normal;
     letter-spacing: -0.4px;
@@ -726,7 +728,7 @@
 }
 
 .contact_sec label{
-    font-size: 26px;
+    font-size:1.587vw;
     font-weight: 700;
     font-style: normal;
     letter-spacing: -0.4px;
@@ -739,7 +741,7 @@
     text-align: right;
 }
 .address_ui p{
-    font-size: 26px;
+    font-size: 1.72vw;
     font-weight: 300;
     font-style: normal;
     letter-spacing: -0.4px;
@@ -747,7 +749,7 @@
     text-transform: none;
     color:var(--white);
     line-height: 28px;
-    margin-bottom: 10px;
+    margin-bottom:0px;
 }
 .address_ui a{
     font-size: 24px;
@@ -975,6 +977,11 @@
             width:18px;
             height:18px;
     }
+
+    .cs_footer .left_sec p{
+        font-size: 1.286vw;
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width:1100px){
@@ -1006,6 +1013,8 @@
     .accordian_wrapper .accordion-item.active .accordion-button{
         padding-top: 20px;
     }
+
+    
 }
 
 @media(min-width:768px) and (max-width:1024px){
@@ -1099,10 +1108,10 @@
     }
 
     .cs_footer{
-        padding:10vw 8vw;
+        padding:7vw 0 0;
     }
     .footer_text {
-         padding-top: 69px;
+         padding-top: 40px;
      }
 
     .footer_text h5{
@@ -1183,6 +1192,16 @@
     .tab_inner_content{
         flex-direction: column;
     }
+    .tab_inner_content.benefits_tab{
+        flex-direction: row;
+        margin-top: -7vw;
+        flex-wrap: wrap;
+    }
+    .benefits_tab .benefit_card{
+        width:50%;
+        max-width: 100%;
+    }
+
     .tabs_sec .cs_container{
         width:100%;
         max-width: 100%;
@@ -1199,10 +1218,12 @@
     }
     .placement_inner_sec .sub-title{
         margin-left: 0;
+        font-size: 4.323vw;
     }
 
     .placement_inner_sec .heading2{
         margin-bottom: 3.429vw;
+        font-size: 5.571vw;
     }
     .placement_inner_sec .sub-title br{
         display: none;
@@ -1221,16 +1242,18 @@
     }
 
     .tabs_wrapper .nav_list{
-        margin-top: 14.64vw;
+        margin-top: 18.64vw;
     }
     .tab_inner_wrapper h3{
-        top: -16.608vw;
+        top: -22.608vw;
+        font-size: 4.857vw;
     }
 
     .tabs_wrapper .ctsm_tabs .nav-link{
-        padding: 1vw 2vw;
-        font-size: 2.51vw;
+        padding: 1.3vw 2.3vw;
+        font-size: 2.6vw;
         border-radius: 5vw;
+        border: 1px solid var(--primary);
     }
     .tab_inner_content .image_sec{
         margin-top: 12vw;
@@ -1246,6 +1269,130 @@
         max-width: 100%;
         padding: 0 20px;
     }
+    .tabs_wrapper .ctsm_tabs .slider{
+        border-radius: 5vw;
+    }
+    .content_sec .heading4{
+        font-size: 4.175vw;
+    }
+    .content_sec .desc {
+        font-size: 3.587vw;
+        line-height: 5.381vw;
+        font-weight: 300;
+    }
+    .tabs_sec{
+        padding-bottom: 5vw;
+    }
+
+    .audience_tab .content_sec .desc {
+        font-size: 4.381vw;
+        line-height: 5.439vw;
+    }
+    .audience_tab .content_sec .heading5 {
+        font-size: 4.8vw;
+        line-height: 4.439vw;
+    }
+    .connect_card label{
+        font-size: 4.116vw;
+    }
+    .benefits_tab .benefit_card{
+        width:50%;
+    }
+
+    .benefit_card label{
+        line-height: 4.116vw;
+        font-size: 3.587vw;
+        margin-bottom: 1.794vw;
+    }
+    .benefit_card .icon{
+        width:24px;
+    }
+    .benefit_card p{
+        font-size: 2.19vw;
+        line-height: 3.116vw;
+    }
+    .enroll_tab .content_sec h6{
+        font-size: 4.116vw;
+        margin-bottom: 2.984vw;
+    }
+    .inner_tab_wrapper .nav-link{
+        font-size: 16px;
+    }
+    .inner_tab_wrapper .tab-content ul{
+        padding: 0 0 0 9px;
+    }
+    .inner_tab_wrapper .tab-content li{
+        font-size: 3.323vw;
+        line-height:5.381vw;
+    }
+
+    .accordion-item.active .accordion-button {
+        font-size: 4.323vw;
+    }
+
+    .accordian_wrapper .accordion-body{
+        padding: 9px 30px 20px;
+    }
+
+    .plans_wrapper .accordian_wrapper .active .accordion-button {
+        color: var(--primary);
+        font-size: 3.323vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: 'Inter', sans-serif;
+    }
+    .plans_wrapper .accordian_wrapper .accordion-body p{
+        font-size: 2.5vw;
+        line-height: 4.587vw;
+    }
+    .plans_wrapper .accordian_wrapper .accordion-button{
+        font-size: 2.323vw;
+    }
+
+    .cs_footer .cs_container{
+        width:100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .cs_footer .top_sec{
+        flex-direction: column;
+    }
+
+    .contact_sec,
+    .contact_sec label{
+        text-align: left;
+        justify-content: flex-start;
+    }
+
+    .contact_sec label{
+        font-size: 22px;
+    }
+    
+    .bottom_sec .left_sec{
+            order: 1;
+    }
+
+    .bottom_sec .right_sec{
+        order: 2;
+    }
+    .right_nav ul {
+        margin-bottom:20px;
+        padding-left: 0;
+    }
+    
+    .cs_footer .bottom_sec{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cs_footer .left_sec p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    .right_nav ul li.seprater{
+        padding:0 10px;
+    }
 
 }
 
@@ -1259,5 +1406,32 @@
     .hero_sec_content h1{
         font-size: 10vw;
     }
+    .accordion-item.active .accordion-button {
+        font-size: 5.323vw;
+    }
+    
+    .accordian_wrapper .accordion-body li{
+        font-size: 3.8vw;
+        margin-bottom: 3.19vw;
+    }
 
+    .accordian_wrapper .accordion-button {
+        font-size: 4.1vw;
+    }
+    .plans_wrapper .accordian_wrapper .active .accordion-button {
+        color: var(--primary);
+        font-size: 4.323vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: 'Inter', sans-serif;
+    }
+    .plans_wrapper .accordian_wrapper .accordion-body p{
+        font-size: 2.926vw;
+        line-height: 4.587vw;
+    }
+
+    .plans_wrapper .accordian_wrapper .accordion-button {
+        font-size: 3.323vw;
+    }
 }
