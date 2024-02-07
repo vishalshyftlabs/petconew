@@ -480,7 +480,7 @@
 }
 .accordion-button:not(.collapsed)::after{
     background:url("../images//angel_up.svg") no-repeat; 
-    transform: initial;
+    /* transform: initial; */
     /* top:3px; */
 }
 .accordion-item.active .accordion-button{
@@ -1313,7 +1313,7 @@
     }
     .enroll_tab .content_sec h6{
         font-size: 4.116vw;
-        margin-bottom: 2.984vw;
+        margin-bottom: 3.984vw;
     }
     .inner_tab_wrapper .nav-link{
         font-size: 16px;
@@ -1394,6 +1394,21 @@
         padding:0 10px;
     }
 
+    .audience_tab .image_sec{
+        margin-left: 0;
+    }
+    .inner_tab_wrapper .nav-item{
+        margin-right: 30px;
+    }
+
+    .inner_tab_wrapper .tab-content{
+        padding-top: 5.984vw;
+    }
+    .accordion-button:not(.collapsed)::after{
+        top:55%;
+    }
+    
+
 }
 
 @media (max-width: 480px){
@@ -1433,5 +1448,18 @@
 
     .plans_wrapper .accordian_wrapper .accordion-button {
         font-size: 3.323vw;
+    }
+
+    .benefits_tab .benefit_card{
+        width:100%;
+    }
+    .benefit_card p {
+        font-size: 3.19vw;
+        line-height: 5.116vw;
+        margin-bottom: 0;
+    }
+
+    .tab_inner_content .image_sec {
+        width: 46.225vw;
     }
 }
